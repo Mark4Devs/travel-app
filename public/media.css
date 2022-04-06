@@ -1,0 +1,533 @@
+@media screen and (max-width: 1921px){
+    .comments_holder {
+        height: 85%;
+    }
+}
+@media screen and (max-width: 1731px){
+    .header_burger.active:before {
+        top: 46%;
+    }
+    .header_burger.active:after {
+        top: 47%;
+    }
+}
+@media screen and (max-width: 1537px){
+    .navigation {
+        width: 28%;
+    }
+    .name {
+        font-size: 1.1vw;
+    }
+    .user_name {
+        font-size: 1.2vw;
+    }
+    #hide li {
+        font-size: 1.1vw;
+    }
+    .search_container form input {
+        font-size: 1.1vw;
+    }
+    .discover_heading {
+        font-size: 2vw !important;
+    }
+    .discover_text {
+        font-size: 1.2vw !important;
+    }
+    .info_container p {
+        font-size: 1.4vw;
+        padding: 2%;
+    }
+    .info_container span {
+        font-size: 1.2vw;
+    }
+    .info_container a {
+        font-size: 1.2vw;
+    }
+    .nav-link a {
+        font-size: 1.2vw;
+    }
+    .places_item p {
+        font-size: 1vw;
+    }
+    .btn_places {
+        padding: 1% 3%;
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 1441px){
+    .wrapper_book {
+        width: 100%;
+        padding-top: 9%;
+    }      
+    .form_info h3 {
+        font-size: 2.5vw;
+        font-weight: 600;
+        margin-top: 65%;
+    }
+    .comments_wrapper {
+        padding-top: 9%;
+    }
+    .add_comment_btn {
+        margin-left: 69%;
+    }
+    .places_item .content {
+        top: 45%;
+        color: #ffff;
+        width: 78%;
+    }
+    .book_item p {
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width: 1281px){
+    .navbar-collapse {
+        top: 8%;  
+    }
+    .header_comments h3 {
+        font-size: 2vw;
+    } 
+}
+@media screen and (max-width: 1025px){
+    aside {
+        margin-top: 12%;
+    }
+    .forms_container {
+        width: 39vw;
+        margin: 15% 0 0 10%;
+    }
+    .register_form button {
+        width: 29%;
+        font-size: 1.3vw;
+    }
+    .forms_container label {
+        font-size: 1.4vw;
+    }
+    .forms_container input {
+        font-size: 1.2vw;
+    }
+    .stage_change_container span {
+        font-size: 1.2vw;
+    }
+    .form_info h3 {
+        font-size: 3.5vw;
+        margin-top: 78%;
+    }
+    .form_info p {
+        font-size: 1.7vw;
+        margin-top: 2%;
+    }
+    .add_comment_btn {
+        margin-left: 65%;
+        font-size: 1.2vw;
+    }
+    .logout_btn {
+        font-size: 1.3vw;
+    }
+    .header_comments {
+        padding: 1%;
+    }
+    .comments_item p {
+        font-size: 1.2vw;
+    }
+    .comments_item span {
+        font-size: .9vw;
+        margin-right: 1%;
+    }
+    .form_comment textarea {
+        font-size: 1.2vw;
+    }
+    .form_comment input {
+        padding: 2%;
+        font-size: 1.2vw;
+    }
+    .post_btn {
+        padding: 1.5% 2.5%;
+        font-size: 1.2vw;
+    }
+    .nav-link a {
+        font-size: 1.3vw;
+    }
+    .button-log {
+        width: 25%;
+        padding: 1.5%;
+        font-size: 1.3vw;
+    }
+    .book_item p {
+        margin-top: 1%;
+        font-size: 1.2vw;
+    }
+    .book_item h5 {
+        font-size: 1.2vw;
+        margin-top: 1%;
+    }
+    .book_info_holder span {
+        font-size: 1.2vw;
+        color: #1890b4;
+    }
+}
+@media screen and (max-width: 961px){
+    .carousel-item {
+        background-position: center;
+    }
+}
+@media screen and (max-width: 854px){
+    .comments_holder {
+        height: 80%;
+    }
+    .navigation{
+        height: 10%;
+    }
+    .name {
+        font-size: 1.1vw;
+        margin-bottom: 11%;
+    }
+    .header_burger_span {
+        height: 2px;
+        width: 21px;
+    }
+    .header_burger:before {
+        height: 2px;
+        width: 21px;
+    }
+    .header_burger:after {
+        height: 2px;
+        width: 21px;
+    }
+    .header_burger.active:after, .header_burger.active:before{
+        height: 2px;
+        width: 21px;
+    }
+}
+@media screen and (max-width: 813px){
+    .info_container {
+        top: 30%;
+    }
+    .carousel {
+        width: 100vw;
+        height: 90vh;
+        margin-top: 4.5%;
+    }
+    aside{
+        display: none;
+    }
+    .info_container span {
+        font-size: 1.5vw;
+    }
+    .info_container p {
+        font-size: 1.5vw;
+        padding: 2%;
+    }
+    .name {
+        font-size: 1.1vw;
+        margin-bottom: 17%;
+    }
+    .header_burger:before {
+        top: 39%;
+    }
+    .header_burger_span{
+        top: 50%;
+    }
+    .header_burger:after{
+        top: 61%;
+    }
+    .header_burger.active:after, .header_burger.active:before{
+        height: 1.5px;
+    }
+    .header_burger.active:before {
+        top: 44%;
+    }
+    .places_container {
+        width: 100%;
+        height: 100vh;
+    }
+    .best_places {
+        padding-top: 4.5%;
+    }
+    .places_item .content {
+        top: 24%;
+    }
+    .forms_container {
+        width: 44vw;
+        margin: 5% 0 0 10%;
+    }
+    .register_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .forms_container input {
+        padding: 3% 4%;
+        margin-bottom: 2%;
+    }
+    .register_form button {
+        width: 21%;
+        margin-top: 2%;
+        padding: 1% 0;
+    }
+    .register_form {
+        width: 100%;
+        height: 70vh;
+        overflow-y: scroll;
+    }
+    .form_info h3 {
+        font-size: 3.5vw;
+        margin-top: 49%;
+    }
+    .comments_wrapper {
+        padding-top: 6%;
+        overflow-y: scroll;
+    }
+    .comments_container {
+        width: 91%;
+        height: 100%;
+    }
+    .comments_holder {
+        height: 75%;
+    }
+    .header_comments a {
+        padding: .2% .2%;
+    }
+    .add_comment_container.active {
+        width: 90%;
+        margin-top: 1.5%;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+    .add_comment_container {
+        width: 90%;
+        transform: translate(255%);
+        -webkit-transform: translate(255%);
+        -moz-transform: translate(255%);
+        -ms-transform: translate(255%);
+        -o-transform: translate(255%);
+    }
+}
+@media screen and (max-width: 737px){
+    .carousel {
+        width: 100vw;
+        height: 90vh;
+        margin-top: 5.5%;
+    }
+    .header_burger_span {
+        top: 51%;
+    }
+    .nav-link a {
+        font-size: 1.5vw;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
+    .header_burger.active:before {
+        top: 45%;
+    }
+    .carousel-item {
+        background-position: center;
+        overflow-y: scroll;
+        padding-bottom: 6%;
+    }
+    .book_item img {
+        width: 100%;
+        height: 81%;
+        object-fit: cover;
+    }
+    .next-slide-book, .prev-slide-book {
+        background-color: #1890b4;
+        height: 72.5%;
+        width: 5%;
+    }
+}
+@media screen and (max-width: 481px){
+    .carousel {
+        width: 100vw;
+        height: 95vh;
+        margin-top: 9%;
+    }
+    .navigation {
+        height: 5%;
+        width: 100%;
+    }
+    .header_burger:before {
+        top: 38%;
+        right: 90%;
+    }
+    .header_burger_span {
+        top: 49%;
+        right: 90%;
+    }
+    .header_burger:after {
+        right: 90%;
+    }
+    .header_burger.active:before, .header_burger.active:after{
+        right: 90%;
+    }
+    .user_name {
+        font-size: 2.5vw;
+        right: 19%;
+    }
+    .name {
+        font-size: 2vw;
+        margin-bottom: 6%;
+    }
+    .info_container span {
+        font-size: 2.5vw;
+    }
+    .info_container h2 {
+        font-size: 5vw;
+        margin-bottom: 2%;
+    }
+    .info_container p {
+        font-size: 2.5vw;
+        padding: 2%;
+    }
+    .info_container {
+        position: absolute;
+        top: 40%;
+        width: 85%;
+    }
+    .info_container a {
+        font-size: 2.5vw;
+    }
+    .book_container {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .next-slide-book, .prev-slide-book {
+        background-color: #1890b4;
+        height: 78.2%;
+        width: 8%;
+    }
+    .book_item h3 {
+        font-size: 4vw;
+    }
+    .book_item h5 {
+        font-size: 2.2vw;
+        margin-top: 1%;
+    }
+    .book_info_holder span {
+        font-size: 2.2vw;
+        color: #1890b4;
+    }
+    .book_item p {
+        margin-top: 1%;
+        font-size: 2.2vw;
+    }
+    .navbar-collapse {
+        top: 5%;
+        width: 100%;
+    }
+    .nav-link a {
+        font-size: 2.5vw;
+    }
+    .navbar-nav .nav-link {
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    .button-log {
+        width: 21%;
+        padding: 1.5%;
+        font-size: 2.2vw;
+    }
+    .best_places {
+        padding-top: 8.7%;
+        flex-direction: column;
+    }
+    .places_item h2 {
+        font-size: 4vw;
+    }
+    .places_item p {
+        font-size: 2.2vw;
+    }
+    .btn_places {
+        padding: 1% 3%;
+        font-size: 2.2vw;
+    }
+    .places_item:hover {
+        flex-grow: 2;
+    }
+    .form_info {
+        display: none;
+    }
+    .forms_container {
+        width: 100vw;
+        margin: 14% 0 0 0%;
+    }
+    .register_form{
+        overflow: hidden;
+    }
+    .register_form h2 {
+        font-size: 4vw;
+    }
+    .forms_container label {
+        font-size: 3vw;
+    }  
+    .forms_container input {
+        font-size: 2.2vw;
+    }
+    .register_form button {
+        font-size: 2.5vw;
+    }
+    .stage_change_container span {
+        font-size: 2.2vw;
+    }
+    .comments_holder {
+        height: 100%;
+        margin-top: -31%;
+    }
+    .comments_wrapper {
+        padding-top: 14%;
+        overflow-y: scroll;
+    }
+    .comments_container {
+        width: 91%;
+        height: 40%;
+    }
+    .header_comments {
+        padding: 1%;
+        height: 5%;
+    }
+    .header_comments h3 {
+        font-size: 2.5vw;
+        padding-top: 1%;
+    }
+    .add_comment_btn {
+        margin-left: 41%;
+        font-size: 2vw;
+    }
+    .logout_btn {
+        font-size: 2vw;
+        padding-top: -4px;
+    }
+    .comments_item p {
+        font-size: 2.2vw;
+    }
+    .comments_item span {
+        font-size: 2vw;
+    }
+    .form_comment {
+        margin-top: -45%;
+    }
+    .form_comment h4 {
+        font-size: 3vw;
+    }
+    .form_comment textarea {
+        font-size: 2.2vw;
+    }
+    .form_comment input {
+        padding: 2%;
+        font-size: 2.2vw;
+    }
+    .post_btn{
+        font-size: 2.2vw;
+    }
+}
+@media screen and (max-width: 426px){
+    .next-slide-book, .prev-slide-book {
+        height: 78.4%;
+    }
+    .name {
+        font-size: 2vw;
+        margin-bottom: 8%;
+    }
+}

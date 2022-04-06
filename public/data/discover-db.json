@@ -1,0 +1,49 @@
+{
+    "discover": [
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/australia.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/kuala-lumpur.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/usa.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/australia.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/kuala-lumpur.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/usa.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/australia.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/kuala-lumpur.jpg"
+        },
+        {
+            "title": "Title",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/usa.jpg"
+        }      
+    ]
+}

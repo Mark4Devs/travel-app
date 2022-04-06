@@ -1,0 +1,22 @@
+{
+    "tours": [
+        {
+            "loc": "Australia",
+            "title": "Lorem dolor ipsum sit Amet",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/australia.jpg"
+        },
+        {
+            "loc": "Malaysia",
+            "title": "Lorem dolor ipsum sit Amet",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/kuala-lumpur.jpg"
+        },
+        {
+            "loc": "USA",
+            "title": "Lorem dolor ipsum sit Amet",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/usa.jpg"
+        }     
+    ]
+}

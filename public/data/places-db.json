@@ -1,0 +1,24 @@
+{
+    "places": [
+        {
+            "loc": "USA",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/usa.jpg"
+        },
+        {
+            "loc": "Germany",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/germany.jpg"
+        },
+        {
+            "loc": "Italy",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/italy.jpg"
+        },
+        {
+            "loc": "Australia",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis asperiores ipsa beatae esse voluptas. Illo soluta exercitationem aspernatur tempora? Nesciunt magnam dignissimos aspernatur earum laborum voluptate aut autem!", 
+            "picture": "./images/australia2.jpg"
+        }     
+    ]
+}

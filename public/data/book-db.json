@@ -1,0 +1,28 @@
+{
+    "booking": [  
+        {
+            "title" : "Italy",
+            "place" : "Lorem inpsum dolor sit amet",
+            "loc"  : "N48°22'60` E20°60`",
+            "text" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dignissimos autem reiciendis ducimus, fugiat eaque nostrum assumenda? Doloribus numquam adipisci excepturi voluptas maiores, quisquam hic pariatur officiis minima sint illo! Consequuntur eos asperiores architecto minus culpa suscipit dolorem facilis reprehenderit, nemo distinctio? Mollitia temporibus, quaerat excepturi dolorem repudiandae deleniti facere necessitatibus porro at placeat recusandae asperiores doloremque modi dicta magni!",
+            "price" : "$3400",
+            "picture" : "http://localhost:3000/images/italy-street.jpg"
+        },
+        {
+            "title" : "Germany",
+            "place" : "Lorem inpsum dolor sit amet",
+            "loc"  : "N48°22'60` E20°60`",
+            "text" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dignissimos autem reiciendis ducimus, fugiat eaque nostrum assumenda? Doloribus numquam adipisci excepturi voluptas maiores, quisquam hic pariatur officiis minima sint illo! Consequuntur eos asperiores architecto minus culpa suscipit dolorem facilis reprehenderit, nemo distinctio? Mollitia temporibus, quaerat excepturi dolorem repudiandae deleniti facere necessitatibus porro at placeat recusandae asperiores doloremque modi dicta magni!",
+            "price" : "$2100",
+            "picture" : "http://localhost:3000/images/cologne.jpg"
+        },
+        {
+            "title" : "USA",
+            "place" : "Lorem inpsum dolor sit amet",
+            "loc"  : "N48°22'60` E20°60`",
+            "text" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dignissimos autem reiciendis ducimus, fugiat eaque nostrum assumenda? Doloribus numquam adipisci excepturi voluptas maiores, quisquam hic pariatur officiis minima sint illo! Consequuntur eos asperiores architecto minus culpa suscipit dolorem facilis reprehenderit, nemo distinctio? Mollitia temporibus, quaerat excepturi dolorem repudiandae deleniti facere necessitatibus porro at placeat recusandae asperiores doloremque modi dicta magni!",
+            "price" : "$3200",
+            "picture" : "http://localhost:3000/images/usa-buildings.jpg"
+        }
+    ]
+}

@@ -12,7 +12,7 @@ export class Signup extends Component{
     };
     
       componentDidMount() {
-        const url = '/users.php'
+        const url = 'https://travel-app-data.herokuapp.com/users.php'
         axios.get(url).then(response => response.data)
         .then((data) => {
           this.setState({ users: data })
@@ -30,7 +30,7 @@ export class Signup extends Component{
      
         axios({
             method: 'post',
-            url: '/users.php',
+            url: 'https://travel-app-data.herokuapp.com/users.php',
             data: formData,
             config: { headers: {'Content-Type': 'multipart/form-data' }}
         })

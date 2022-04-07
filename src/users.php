@@ -1,6 +1,7 @@
 <?php 
 
-header("Access-Control-Allow-Origin: *"); 
+header('Access-Control-Allow-Origin:*');
+header('Content-Type: application/json');
 $host = "eu-cdbr-west-02.cleardb.net"; 
 $user = "b8342cddce8f53"; 
 $password = "dd22fad0"; 

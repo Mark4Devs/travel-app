@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Aside from "../Components/Aside";
+
 
 export class Signup extends Component{
     state ={
@@ -12,7 +12,7 @@ export class Signup extends Component{
     };
     
       componentDidMount() {
-        const url = './users.php'
+        const url = 'https://journeys-app.heroku-app.com/users.php'
         axios.get(url).then(response => response.data)
         .then((data) => {
           this.setState({ users: data })
@@ -30,7 +30,7 @@ export class Signup extends Component{
      
         axios({
             method: 'post',
-            url: './users.php',
+            url: 'https://journeys-app.heroku-app.com/users.php',
             data: formData,
             config: { headers: {'Content-Type': 'multipart/form-data' }}
         })

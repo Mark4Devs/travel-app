@@ -1,10 +1,10 @@
 <?php 
 
-header("Access-Control-Allow-Origin: *"); //add this CORS header to enable any domain to send HTTP requests to these endpoints:
-$host = "localhost:3308"; 
-$user = "root"; 
-$password = ""; 
-$dbname = "travel_app_bd"; 
+header("Access-Control-Allow-Origin: *"); 
+$host = "eu-cdbr-west-02.cleardb.net"; 
+$user = "b8342cddce8f53"; 
+$password = "dd22fad0"; 
+$dbname = "heroku_14124cbc8023421"; 
 $id = '';
  
 $con = mysqli_connect($host, $user, $password,$dbname);
@@ -26,7 +26,7 @@ switch ($method) {
     $password = $_POST["password"];
     $
    
-    $sql = "insert into users (name, email, password) values ('$name', '$email', '$password')"; 
+    $sql = "insert into users (FirstName, email, pass) values ('$name', '$email', '$password')"; 
     break;
 }
 

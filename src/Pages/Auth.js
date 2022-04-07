@@ -15,7 +15,7 @@ const Auth = ({authenticate}) =>{
           .then(
               (result) =>{
                 setData(result);
-                console.log(data);
+                console.log(result);
                 }
             )
       }, []);

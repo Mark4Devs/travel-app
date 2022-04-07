@@ -10,11 +10,12 @@ const Auth = ({authenticate}) =>{
     const [errCLass, setErrClass] = useState('');
     
     useEffect(() => {
-        fetch("https://journeys-app.heroku-app.com/login.php")
+        fetch("./login.php")
           .then(res => res.json())
           .then(
               (result) =>{
                 setData(result);
+                console.log(result);
                 }
             )
       }, []);

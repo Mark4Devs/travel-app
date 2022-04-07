@@ -13,7 +13,7 @@ const Comments = ({logout}) =>{
     const date = `${current.getDate()}-${current.getMonth()+1}-${current.getFullYear()}`;
     console.log(date)
     useEffect(() => {
-        axios.get("./comments.php")
+        axios.get("/comments.php")
           .then(res =>{
               setRecap(res.data) 
           })  
@@ -30,7 +30,7 @@ const Comments = ({logout}) =>{
 
         axios({
             method: 'post',
-            url: './comments.php',
+            url: '/comments.php',
             data: formData,
             config: { headers: {'Content-Type': 'multipart/form-data' }}
         })

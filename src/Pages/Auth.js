@@ -10,7 +10,7 @@ const Auth = ({authenticate}) =>{
     const [errCLass, setErrClass] = useState('');
     
     useEffect(() => {
-        fetch("./login.php")
+        fetch("/login.php")
           .then(res => res.json())
           .then(
               (result) =>{

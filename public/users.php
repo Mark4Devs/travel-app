@@ -6,6 +6,7 @@ $user = "b8342cddce8f53";
 $password = "dd22fad0"; 
 $dbname = "heroku_14124cbc8023421"; 
 $id = '';
+
  
 $con = mysqli_connect($host, $user, $password,$dbname);
  

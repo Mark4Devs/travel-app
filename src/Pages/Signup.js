@@ -38,8 +38,8 @@ export class Signup extends Component{
         axios({
             method: 'post',
             url: 'https://travel-app-data.herokuapp.com/users.php',
-            data: data,
-            config: { headers: {'Content-Type': 'application/json' }}
+            data: data
+            //config: { headers: {'Content-Type': 'application/json' }}
         })
         .then(function (response) {
             //handle success

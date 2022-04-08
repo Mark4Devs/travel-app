@@ -24,7 +24,9 @@ const Auth = ({authenticate}) =>{
         event.preventDefault();       
         const arrayOfObject = data;
         const output = arrayOfObject.find( ({ name }) => name === nameOutput );
+        console.log(output);
         const password = pass;
+        console.log(password)
         if(nameOutput == 0){
             setErrorMessage('Please enter your username!'); 
             setErrClass("err_container_wrong");

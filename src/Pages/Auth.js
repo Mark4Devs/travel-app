@@ -23,8 +23,9 @@ const Auth = ({authenticate}) =>{
     const onClick = (event) =>{
         event.preventDefault();       
         const arrayOfObject = data;
+        console.log(nameOutput);
+        console.log(arrayOfObject);
         const output = arrayOfObject.find( ({ name }) => name === nameOutput );
-        console.log(output);
         const password = pass;
         console.log(password)
         if(nameOutput == 0){

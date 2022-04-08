@@ -59,9 +59,9 @@ const Comments = ({logout}) =>{
                     <div class="comments_holder">
                         {cap.map(com => (<div class="comments_item">
                             <p>
-                                <i>{com.comment}</i>
+                                <i>{com.comments}</i>
                             </p>
-                            <span><i>{com.date}</i></span>
+                            <span><i>{com.dates}</i></span>
                             <span><i>by</i></span>
                             <span><i>{com.name}</i></span>
                         </div>

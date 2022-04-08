@@ -23,11 +23,17 @@ export class Signup extends Component{
       handleFormSubmit( event ) {
         event.preventDefault();
      
-        let data = JSON.stringify({
+        /*let data = JSON.stringify({
             username: this.state.name,
             password: this.state.password,
             email: this.state.email
-        });
+        });*/
+        let data = {
+            username: this.state.name,
+            password: this.state.password,
+            email: this.state.email 
+        }
+
      
         axios({
             method: 'post',

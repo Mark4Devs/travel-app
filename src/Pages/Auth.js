@@ -23,16 +23,13 @@ const Auth = ({authenticate}) =>{
     const onClick = (event) =>{
         event.preventDefault();       
         const arrayOfObject = data;
-        console.log(nameOutput);
-        console.log(arrayOfObject);
         const output = arrayOfObject.find( ({ name }) => name === nameOutput );
         const password = pass;
-        console.log(password)
         if(nameOutput == 0){
             setErrorMessage('Please enter your username!'); 
             setErrClass("err_container_wrong");
         }
-        else if(output.password == password){
+        else if(output.pass == password){
             window.location.reload();
             console.log('all`s correct');
             authenticate();

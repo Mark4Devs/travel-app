@@ -22,8 +22,7 @@ const Comments = ({logout}) =>{
     const handleToggle = () =>{
         setComment(!comment);
     }
-    const postComment = (event) =>{
-        event.preventDeault();  
+    const postComment = (event) =>{ 
         var bodyFormData = new FormData();
         bodyFormData.append('comment', textArea);
         bodyFormData.append('name',  sessionStorage.getItem("UserName"));
@@ -44,6 +43,7 @@ const Comments = ({logout}) =>{
             //handle error
             console.log(response)
         });
+        event.preventDefault();
     }
 
  

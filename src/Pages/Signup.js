@@ -23,18 +23,17 @@ export class Signup extends Component{
       handleFormSubmit( event ) {
         event.preventDefault();
      
-        let data = JSON.stringify({
-            username: this.state.name,
-            password: this.state.password,
-            email: this.state.email
-        });
+        var bodyFormData = new FormData();
+        bodyFormData.append('name', this.state.name);
+        bodyFormData.append('email', this.state.email);
+        bodyFormData.append('password', this.state.password);
 
      
         axios({
             method: 'post',
             url: 'https://travel-app-data.herokuapp.com/users.php',
-            data: data, 
-            config: { headers: {'Content-Type': 'application/json' }}
+            data: bodyFormData, 
+            config: { headers: {"Content-Type": "multipart/form-data" }}
         })
         .then(function (response) {
             //handle success

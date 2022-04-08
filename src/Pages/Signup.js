@@ -23,7 +23,7 @@ export class Signup extends Component{
       handleFormSubmit( event ) {
         event.preventDefault();
      
-        let data = JSON.parse({
+        let data = JSON.stringify({
             username: this.state.name,
             password: this.state.password,
             email: this.state.email

@@ -23,7 +23,7 @@ const Auth = ({authenticate}) =>{
     const onClick = (event) =>{
         event.preventDefault();       
         const arrayOfObject = data;
-        const output = arrayOfObject.find( ({ name }) => name === nameOutput );
+        const output = arrayOfObject.find( ({ FirstName }) => FirstName === nameOutput );
         const password = pass;
         if(nameOutput == 0){
             setErrorMessage('Please enter your username!'); 

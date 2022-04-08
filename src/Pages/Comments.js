@@ -22,21 +22,23 @@ const Comments = ({logout}) =>{
     const handleToggle = () =>{
         setComment(!comment);
     }
-    const postComment = () =>{
-        let formData = new FormData();
-        formData.append('comment', textArea)
-        formData.append('name', sessionStorage.getItem("UserName"))
-        formData.append('date', date)  
+    const postComment = (event) =>{
+        event.preventDeault();  
+        var bodyFormData = new FormData();
+        bodyFormData.append('comment', textArea);
+        bodyFormData.append('name',  sessionStorage.getItem("UserName"));
+        bodyFormData.append('date', date);
 
         axios({
             method: 'post',
             url: 'https://travel-app-data.herokuapp.com/comments.php',
-            data: formData,
-            config: { headers: {'Content-Type': 'multipart/form-data' }}
+            data: bodyFormData,
+            config: { headers: {"Content-Type": "multipart/form-data" }}
         })
         .then(function (response) {
             //handle success
             console.log(response)
+            alert("Comment successfully added!")
         })
         .catch(function (response) {
             //handle error

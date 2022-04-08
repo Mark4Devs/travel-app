@@ -38,6 +38,7 @@ export class Signup extends Component{
         .then(function (response) {
             //handle success
             console.log(response)
+            alert("successfully registered!")
         })
         .catch(function (response) {
             //handle error
